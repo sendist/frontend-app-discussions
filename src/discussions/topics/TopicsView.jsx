@@ -93,6 +93,11 @@ const TopicsView = () => {
         />
       )}
       <div className="list-group list-group-flush flex-fill" role="list" onKeyDown={e => handleKeyDown(e)}>
+        <div>
+          <p>INI TEKS TAMBAHAN</p>
+          <p>INI TEKS TAMBAHAN</p>
+          <p>INI TEKS TAMBAHAN</p>
+        </div>
         <CourseWideTopics />
         <LegacyCoursewareTopics />
       </div>
